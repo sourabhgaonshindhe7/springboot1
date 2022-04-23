@@ -1,3 +1,4 @@
+package com.demo.springboot1.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
@@ -12,7 +13,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 	@Configuration
 	@EnableSwagger2
-	public class SweggerConfig extends WebMvcConfigurationSupport{
+	public class SwaggerConfig extends WebMvcConfigurationSupport{
 
 		
 		@Bean

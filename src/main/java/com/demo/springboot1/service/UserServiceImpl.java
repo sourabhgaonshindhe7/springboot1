@@ -13,7 +13,6 @@ import com.demo.springboot1.repository.UserRepository;
 @Transactional
 public class UserServiceImpl implements UserService{
 	@Autowired
-	 
 	UserRepository repo;
 
 	@Override
